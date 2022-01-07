@@ -1,0 +1,36 @@
+﻿.split {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+}
+
+.left {
+
+    left: 0;
+    background-color: #236a8a;
+
+}
+
+.right {
+    right: 0;
+    background-color: #b31b1b;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.center img {
+    width: 150px;
+}
+
+/*div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}*/

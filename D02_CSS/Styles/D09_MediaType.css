@@ -1,0 +1,30 @@
+@media screen, print {
+    body {
+        text-align: center;
+    }
+
+    .textAlignRight {
+        text-align: right;
+    }
+}
+
+@media screen{
+    body {
+        color: #1328e6;
+        background-color: darksalmon;
+        font-family: Arial, sans-serif;
+        font-size: 3em;
+    }
+}
+
+@media print {
+    body {
+        color: black;
+        background-color: white;
+        font-family: Times, serif;
+        font-size: 1em;
+        text-align: left;
+    }
+}
+
+

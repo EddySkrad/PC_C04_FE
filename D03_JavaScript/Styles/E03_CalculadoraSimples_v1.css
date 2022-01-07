@@ -1,0 +1,15 @@
+﻿.FormatHeader {
+    color: darkred;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.positionImage {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+}
+
+td {
+    color: darkorange;
+}

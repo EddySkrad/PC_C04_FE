@@ -1,0 +1,40 @@
+﻿table {
+    border-spacing: 0.5rem;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+td:first-child {
+    background-color: lightgreen;
+}
+
+td:nth-child(2) {
+    background-color: coral;
+}
+
+td:nth-child(3) {
+    background-color: blue;
+}
+
+td:nth-child(4) {
+    background-color: deeppink;
+}
+
+td:nth-last-child(1) {
+    background-color: saddlebrown;
+}
+
+td:nth-last-child(2) {
+    background-color: goldenrod;
+}
+
+tr:last-child td:last-child {
+    background-color: blueviolet;
+}
+
+/*
+#lastCell {
+    background-color: lightpink;
+}*/

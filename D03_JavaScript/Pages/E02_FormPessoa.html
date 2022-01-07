@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="utf-8" />
+    <title>Exercício Form Pessoa</title>
+    <link href="../Styles/E02_FormPessoa.css" rel="stylesheet" />
+    <script src="../Scripts/E02_FormPessoa.js"></script>
+</head>
+<body onload="FormLoad();">
+    <form name="formPessoa">
+        <table>
+            <tr>
+                <td><label>Nome <span class="Asterisk">*</span></label></td>
+                <td><input id="textNome" type="text" size="50" onblur="ValidarNome();" /></td>
+            </tr>
+            <tr>
+                <td><label>E-mail <span class="Asterisk">*</span></label></td>
+                <td><input id="textEmail" type="text" size="50" onblur="ValidarEmail();" /></td>
+            </tr>
+            <tr>
+                <td><label>Telefone <span class="Asterisk">*</span></label></td>
+                <td><input id="textTelefone" type="text" maxlength="9" onblur="ValidarTelefone();" /></td>
+            </tr>
+            <tr>
+                <td><label>NIF <span class="Asterisk">*</span></label></td>
+                <td><input id="textNif" type="text" maxlength="9" onblur="ValidarNif();" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button id="buttonValidate" type="button" onclick="ValidarForm();">Validar</button>
+                    <button id="buttonReiniciar" type="reset">Reiniciar</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><p id="Mensagem"></p></td>
+            </tr>
+        </table>
+    </form>
+   
+</body>
+</html>

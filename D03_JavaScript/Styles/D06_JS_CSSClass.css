@@ -1,0 +1,9 @@
+﻿.FormatSection {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: brown;
+    color: aliceblue;
+    font-family: Verdana;
+    font-size: 2rem;
+}

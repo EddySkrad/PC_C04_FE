@@ -1,0 +1,16 @@
+﻿@import "ResetSimpleCSS.css";
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 20% 30%;
+    padding: 10px;
+    background-color: brown;
+}
+
+.column {
+    padding: 10px;
+    font-size: 2rem;
+    border: 2px solid white;
+    background-color: cadetblue;
+    text-align: center;
+}

@@ -1,0 +1,1 @@
+﻿Este projecto é o exercício 2 que consiste na alteração da base de dados com uma nova tabela.

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="utf-8" />
+    <title>Exercício Calculadora v1</title>
+
+    <link href="../Styles/E03_CalculadoraSimples_v1.css" rel="stylesheet" />
+    <script src="../Scripts/E03_CalculadoraSimples_v1.js"></script>
+
+</head>
+<body onload="FormLoad();">
+
+    <header>
+        <p><h1 class="FormatHeader">Calculadora Simples</h1></p>
+    </header>
+    <section>
+        <form name="calculadora">
+            <table>
+                <tr>
+                    <td>Valor 1</td>
+                    <td>
+                        <input id="valor1" type="text" onblur="ValidateValor1();">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Valor 2</td>
+                    <td>
+                        <input id="valor2" type="text" onblur="ValidateValor2();">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Operação</td>
+                    <td>
+                        <input id="buttonSum" type="button" value="+" onclick="Soma();">
+
+                        <input id="buttonSub" type="button" value="-" onclick="Subtracao();">
+
+                        <input id="buttonMul" type="button" value="*" onclick="Multiply();">
+
+                        <input id="buttonDiv" type="button" value="/" onclick="Divide();">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Resultado</td>
+                    <td>
+                        <input id="resultado" type="text">
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+    </section>
+    <section class="positionImage">
+        <img src="../Content/casio-calculadora-de-secretaria.jpg" width="300" />
+    </section>
+    
+</body>
+</html>
